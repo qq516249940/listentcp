@@ -4,6 +4,8 @@ LABEL author="chunk"
 
 WORKDIR /app
 
+RUN go build 
+
 COPY checktcp /app/
 
 
